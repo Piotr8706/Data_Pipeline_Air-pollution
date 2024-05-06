@@ -15,7 +15,7 @@ BASE_URL = "http://api.openweathermap.org/data/2.5/air_pollution?"
 # creating json for cities
 for city in cities:
     location = geolocator.geocode(city)
-    lat = location.raw['lon']
+    lat = location.raw['lat']
     lon = location.raw['lon']
     url = BASE_URL + "lat=" + lat + "&lon=" + lon + "&appid=" + openweather_key_api
     response = requests.get(url).json()
