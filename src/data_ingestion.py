@@ -12,6 +12,7 @@ load_dotenv(r"C:\Users\piotr\Downloads\Air_pollution\secrets\.env")
 openweather_key_api = os.environ['OPENWEATHER_API_KEY']
 BASE_URL = "http://api.openweathermap.org/data/2.5/air_pollution?"
 
+# creating json for cities
 for city in cities:
     location = geolocator.geocode(city)
     lat = location.raw['lon']
