@@ -6,6 +6,8 @@ import requests
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from airflow import DAG
 
+default_args=1
+your_schedule_interval=[]
 dag = DAG('your_dag_id', default_args=default_args, schedule_interval=your_schedule_interval)
 
 
