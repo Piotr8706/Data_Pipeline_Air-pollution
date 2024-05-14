@@ -1,0 +1,44 @@
+.airflow {
+    display: block;
+  }
+  
+  .airflow > .dags {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .dags > .main,
+  .airflow > .dags > .utils {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .logs {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .plugins {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .secrets {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .secrets > .google_cloud_service_key {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .Dockerfile {
+    display: block;
+    padding-left: 20px;
+  }
+  
+  .airflow > .docker-compose {
+    display: block;
+    padding-left: 20px;
+  }
