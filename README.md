@@ -70,6 +70,9 @@ Copy code
 
 OPENWEATHER_API_KEY=your-api-key
 
+## Contributions
+
+Contributions are welkome
 
 ## Usage
 
