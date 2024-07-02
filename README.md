@@ -5,8 +5,9 @@ This project aims to collect air pollution data from multiple cities using the O
 ## Setup
 
 1. **Clone the repository:**
+   
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
 Certainly! Here's the content of a single markdown file, README.md, combining the information:
 
